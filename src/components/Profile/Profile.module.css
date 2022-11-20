@@ -1,0 +1,11 @@
+.profile {
+  max-width: 512px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 15px 5px #008080;
+}
+.description {
+  display: flex;
+  justify-content: center;
+}
