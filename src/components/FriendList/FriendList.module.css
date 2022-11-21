@@ -1,14 +1,6 @@
-.status {
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-.online {
-  composes: status;
-  background-color: green;
-}
-.offline {
-  composes: status;
-  background-color: red;
+.friends__list {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 0;
 }

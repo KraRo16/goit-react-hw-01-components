@@ -11,25 +11,25 @@ export const Profile = props => {
   } = props;
   return (
     <div className={style.profile}>
-      <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" />
-        <p className="name">{name}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+      <div className={style.description}>
+        <img className={style.avatar} src={avatar} alt="User avatar" />
+        <p className={style.name}>{name}</p>
+        <p className={style.tag}>@{tag}</p>
+        <p className={style.location}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={style.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{followers}</span>
+          <span className={style.label}>Followers</span>
+          <span className={style.quantity}>{followers}</span>
         </li>
         <li>
-          <span className="label">Views</span>
-          <span className="quantity">{views}</span>
+          <span className={style.label}>Views</span>
+          <span className={style.quantity}>{views}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{likes}</span>
+          <span className={style.label}>Likes</span>
+          <span className={style.quantity}>{likes}</span>
         </li>
       </ul>
     </div>
